@@ -44,6 +44,18 @@ const Projects = (props: Props) => {
           title="Property Finder"
           backgroundImg={propertyImg}
           projectUrl="#"
+          tech={["React Js", "Next Js"]}
+        />
+        <ProjectItem
+          title="Property Finder"
+          backgroundImg={propertyImg}
+          projectUrl="#"
+          tech={["React Js,", "Next Js"]}
+        />
+        <ProjectItem
+          title="Property Finder"
+          backgroundImg={propertyImg}
+          projectUrl="#"
           tech={["React Js,", "Next Js"]}
         />
       </motion.div>

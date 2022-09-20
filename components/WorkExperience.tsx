@@ -26,6 +26,9 @@ const WorkExperience = (props: Props) => {
         <ExperienceCard />
         <ExperienceCard />
         <ExperienceCard />
+        <ExperienceCard />
+        <ExperienceCard />
+        <ExperienceCard />
       </div>
     </motion.div>
   );
