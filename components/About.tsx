@@ -67,7 +67,7 @@ const About = (props: Props) => {
                 </span>
                 &nbsp;more about me
               </h4>
-              <p className="text-sm leading-none sm:leading-tight text-justify md:text-center  p-1">
+              <p className="text-sm leading-none sm:leading-tight text-justify md:text-center p-2">
                 Even though I am a student of materials science and engineering,
                 I started learning programming in my third year of university
                 since I have a fascination for it. I began studying the basics

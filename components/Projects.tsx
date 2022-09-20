@@ -7,16 +7,15 @@ type Props = {};
 
 const Projects = (props: Props) => {
   return (
-    <div className="h-screen max-w-full px-10 flex flex-col items-center relative">
+    <div className="h-screen max-w-full px-10 flex flex-col items-center relative justify-around">
       <div className="h-[10%]"></div>
-      <h3 className="uppercase font-semibold tracking-widest md:tracking-[20px] text-gray-500 text-2xl h-[10%]">
+      <h3 className="uppercase font-semibold tracking-widest md:tracking-[20px] text-gray-500 text-2xl">
         Projects
       </h3>
       <div
         className="
       w-full absolute top-[30%] bg-[#f7ab0a]/5 z-[0] left-0 h-[500px] -skew-y-12"
       />
-
       <motion.div
         initial={{
           opacity: 0,
