@@ -27,16 +27,19 @@ const Header: React.FC = () => {
           fgColor="gray"
           bgColor="transparent"
           url="https://www.linkedin.com/in/md-solayman/"
+          target="_blank"
         />
         <SocialIcon
           fgColor="gray"
           bgColor="transparent"
           url="https://github.com/solayman-bd"
+          target="_blank"
         />
         <SocialIcon
           fgColor="gray"
           bgColor="transparent"
           url="https://www.facebook.com/solayman1727041"
+          target="_blank"
         />
       </motion.div>
 
@@ -61,6 +64,7 @@ const Header: React.FC = () => {
           fgColor="gray"
           bgColor="transparent"
           network="email"
+          target="_blank"
         />
         <Link
           href="mailto:mdsolaymannuhin@gmail.com.com"
