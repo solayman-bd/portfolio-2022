@@ -29,7 +29,7 @@ const Hero: React.FC = (props: Props) => {
         <h2 className="text-sm uppercase text-gray-600 tracking-[0.8rem]">
           an Engineer
         </h2>
-        <h1 className="text-5xl lg:text-6xl font-semibold px-10">
+        <h1 className="text-lg sm:text-xl md:text-3xl lg:text-6xl font-semibold px-10">
           <span>{text}</span>
           <Cursor cursorColor="#F7AB0A" />
         </h1>
