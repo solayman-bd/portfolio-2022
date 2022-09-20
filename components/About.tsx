@@ -21,7 +21,7 @@ const About = (props: Props) => {
         }}
         className="h-[88%] flex flex-col items-center"
       >
-        <h3 className="uppercase tracking-[20px] font-semibold text-gray-600 text-4xl h-[8%]">
+        <h3 className="uppercase tracking-[20px] font-semibold text-gray-600 text-2xl h-[8%]">
           About
         </h3>
         {/* Detail */}
@@ -39,9 +39,9 @@ const About = (props: Props) => {
             transition={{
               duration: 1.5,
             }}
-            className="flex-[2] md:flex-1 flex items-center justify-center p-2"
+            className="flex-[2] md:flex-1 flex items-center justify-center p-1 sm:p-2"
           >
-            <div className="w-[30%] md:w-[80%] h-[90%] lg:w-[70%] relative rounded-full md:rounded-xl overflow-hidden">
+            <div className="w-[30%] md:w-[80%] h-[100%] lg:w-[70%] relative rounded-full md:rounded-xl overflow-hidden">
               <Image layout="fill" src={aboutImage} />
             </div>
           </motion.div>
@@ -68,7 +68,7 @@ const About = (props: Props) => {
                 &nbsp;more about me
               </h4>
               <br />
-              <p className="text-sm">
+              <p className="text-sm leading-tight">
                 Even though I'm a student of materials science and engineering,
                 I started learning programming in my third year of university
                 since I have a fascination for it. I began studying the basics

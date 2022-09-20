@@ -1,6 +1,7 @@
 import React from "react";
 import { SocialIcon } from "react-social-icons";
 import { motion } from "framer-motion";
+import Link from "next/link";
 
 const Header: React.FC = () => {
   return (
@@ -25,17 +26,17 @@ const Header: React.FC = () => {
         <SocialIcon
           fgColor="gray"
           bgColor="transparent"
-          url="https://twitter.com/jaketrent"
+          url="https://www.linkedin.com/in/md-solayman/"
         />
         <SocialIcon
           fgColor="gray"
           bgColor="transparent"
-          url="https://twitter.com/jaketrent"
+          url="https://github.com/solayman-bd"
         />
         <SocialIcon
           fgColor="gray"
           bgColor="transparent"
-          url="https://twitter.com/jaketrent"
+          url="https://www.facebook.com/solayman1727041"
         />
       </motion.div>
 
@@ -61,9 +62,12 @@ const Header: React.FC = () => {
           bgColor="transparent"
           network="email"
         />
-        <p className="uppercase hidden md:inline-flex text-sm text-gray-400">
+        <Link
+          href="mailto:mdsolaymannuhin@gmail.com.com"
+          className="uppercase hidden md:inline-flex text-sm text-gray-400"
+        >
           Get in touch
-        </p>
+        </Link>
       </motion.div>
     </header>
   );

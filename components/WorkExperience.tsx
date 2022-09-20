@@ -15,13 +15,13 @@ const WorkExperience = (props: Props) => {
       transition={{
         duration: 1.5,
       }}
-      className="h-screen border max-w-full px-10 flex flex-col items-center"
+      className="h-screen max-w-full px-10 flex flex-col items-center"
     >
-      <h3 className="uppercase tracking-widest md:tracking-[20px] text-gray-500 text-2xl mt-20">
+      <h3 className="uppercase font-semibold tracking-widest md:tracking-[20px] text-gray-500 text-2xl mt-20">
         Work Experience
       </h3>
 
-      <div className="w-full flex justify-center items-center space-x-5 overflow-x-auto p-10 snap-x snap-mandatory border">
+      <div className="w-full flex h-full items-center flex-nowrap overflow-x-auto p-1 snap-x snap-mandatory space-x-5 main my-3">
         <ExperienceCard />
         <ExperienceCard />
         <ExperienceCard />
