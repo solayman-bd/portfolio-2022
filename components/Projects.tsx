@@ -47,6 +47,7 @@ const Projects = (props: Props) => {
           tech={["React Js,", "Next Js"]}
         />
       </motion.div>
+      <div className="h-[5%]" />
     </div>
   );
 };
