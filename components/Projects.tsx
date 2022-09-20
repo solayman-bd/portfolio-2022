@@ -8,7 +8,7 @@ type Props = {};
 const Projects = (props: Props) => {
   return (
     <div className="h-screen max-w-full px-10 flex flex-col items-center relative justify-evenly">
-      <div className="h-[6%]" />
+      <div className="h-[10%]" />
       <h3 className="uppercase font-semibold tracking-widest md:tracking-[20px] text-gray-500 text-2xl">
         Projects
       </h3>
