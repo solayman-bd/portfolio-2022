@@ -58,17 +58,16 @@ const About = (props: Props) => {
               transition={{
                 duration: 1.5,
               }}
-              className=""
+              className="m-0"
             >
-              <h4 className="font-semibold sm:text-lg">
+              <h4 className="font-semibold sm:text-lg mb-2">
                 A{" "}
                 <span className="underline decoration-[#ca8a04]/50">
                   little
                 </span>
                 &nbsp;more about me
               </h4>
-              <br />
-              <p className="text-sm leading-none sm:leading-tight">
+              <p className="text-sm leading-none sm:leading-tight text-justify md:text-center  p-1">
                 Even though I am a student of materials science and engineering,
                 I started learning programming in my third year of university
                 since I have a fascination for it. I began studying the basics
