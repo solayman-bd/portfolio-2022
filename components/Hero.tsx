@@ -22,6 +22,7 @@ const Hero: React.FC = (props: Props) => {
       <Image
         src={profileImage}
         className="rounded-full h-32 w-32 object-cover"
+        alt=""
       />
 
       <div className="z-10">

@@ -28,7 +28,7 @@ const ExperienceCard = (props: Props) => {
               }}
               className="h-20 w-20 relative rounded-full overflow-hidden"
             >
-              <Image src={aboutImage} layout="fill" />
+              <Image src={aboutImage} alt="" layout="fill" />
             </motion.div>
           </div>
 
@@ -59,13 +59,13 @@ const ExperienceCard = (props: Props) => {
               <ul className="text-xs mt-2 p-2 list-disc text-gray-50  text-justify leading-3 sm:leading-relaxed">
                 <li>Built landing page</li>
                 <li>
-                  Implemented a system that can record the user's voice and
-                  downsample the audio
+                  Implemented a system that can record the user&rsquo;s voice
+                  and downsample the audio
                 </li>
                 <li>
                   Created a text editor that allows users to update the
                   transcripted text version, identify changes to words, and
-                  determine words' prior and current positions in strings.
+                  determine words&rsquo; prior and current positions in strings.
                 </li>
               </ul>
             </div>

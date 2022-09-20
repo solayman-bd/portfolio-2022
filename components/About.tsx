@@ -42,7 +42,7 @@ const About = (props: Props) => {
             className="flex-[2] md:flex-1 flex items-center justify-center p-1 sm:p-2"
           >
             <div className="w-[30%] md:w-[80%] h-[100%] lg:w-[70%] relative rounded-full md:rounded-xl overflow-hidden">
-              <Image layout="fill" src={aboutImage} />
+              <Image layout="fill" src={aboutImage} alt="" />
             </div>
           </motion.div>
 
@@ -65,20 +65,20 @@ const About = (props: Props) => {
                 <span className="underline decoration-[#ca8a04]/50">
                   little
                 </span>
-                &nbsp;more about me
+                more about me
               </h4>
               <br />
               <p className="text-sm leading-tight">
-                Even though I'm a student of materials science and engineering,
+                Even though I am a student of materials science and engineering,
                 I started learning programming in my third year of university
                 since I have a fascination for it. I began studying the basics
                 using C and C++, after which I learnt javascript and narrowed my
                 concentration to web development. For the past 1.5 years, I have
                 been employed in this field. I worked as a frontend developer in
-                a company and completed two internships. I've used MERN stack to
-                create nearly ten websites, ranging from simple to complex.
-                Problem solving is my current area of concentration.
-                Additionally, I've published two articles in the field of
+                a company and completed two internships. I&#39;ve used MERN
+                stack to create nearly ten websites, ranging from simple to
+                complex. Problem solving is my current area of concentration.
+                Additionally, I have published two articles in the field of
                 material science on the issue of materials characterization,
                 which is a simulation-based study employing density functional
                 theory.

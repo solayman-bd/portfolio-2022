@@ -32,8 +32,8 @@ const ProjectItem = ({ title, backgroundImg, tech, projectUrl }: Props) => {
             {title}
           </h3>
           <p className="pb-4 pt-2 text-white text-center">
-            {tech.map((item) => (
-              <span>{item}</span>
+            {tech.map((item, k) => (
+              <span key={k}>{item}</span>
             ))}
           </p>
           <Link href={projectUrl}>
