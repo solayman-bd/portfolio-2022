@@ -27,7 +27,7 @@ const Projects = (props: Props) => {
         transition={{
           duration: 1.5,
         }}
-        className="w-full flex h-[80%] items-center flex-nowrap overflow-x-auto p-1 snap-x snap-mandatory space-x-5 main my-3 z-10"
+        className="w-full flex h-[75%] items-center flex-nowrap overflow-x-auto p-1 snap-x snap-mandatory space-x-5 main my-3 z-10"
       >
         <ProjectItem
           title="Property Finder"
