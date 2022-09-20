@@ -11,7 +11,7 @@ const ExperienceCard = (props: Props) => {
       className="flex snap-center flex-col rounded-lg items-center space-y-7 p-1 sm:p-3
     opacity-70 flex-shrink-0 w-full relative"
     >
-      <div className="bg-gray-800 cursor-pointer transition-opacity duration-200 hover:opacity-100 sm:p-4 p-2 opacity-60 rounded-lg text-gray-300 relative z-10 md:w-2/4">
+      <div className="bg-gray-800 cursor-pointer transition-opacity duration-200 hover:opacity-100 sm:p-4 p-3 opacity-60 rounded-lg text-gray-300 relative z-10 md:w-2/4">
         <div className="flex flex-wrap items-center">
           <div className="flex relative items-center justify-center w-full">
             <motion.div

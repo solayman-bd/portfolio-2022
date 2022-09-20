@@ -7,7 +7,7 @@ type Props = {};
 const About = (props: Props) => {
   return (
     <div className="h-screen">
-      <div className="h-[12%]" />
+      <div className="h-[10%]" />
       {/* Main content starts here */}
       <motion.div
         initial={{
