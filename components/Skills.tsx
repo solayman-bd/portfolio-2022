@@ -85,12 +85,25 @@ const Skills = (props: Props) => {
         {skills.map((skill) => (
           <div
             key={skill.id}
-            className="p-6 cursor-pointer bg-gray-800 shadow-xl rounded-xl hover:scale-105 ease-in duration-300"
+            className="p-6 cursor-pointer shadow-xl rounded-xl hover:scale-105 ease-in duration-300"
           >
             <div className="flex flex-col items-center justify-center">
-              <div className="m-auto">
+              <motion.div
+                initial={{
+                  opacity: 0,
+                  x: 50,
+                }}
+                whileInView={{
+                  opacity: 1,
+                  x: 0,
+                }}
+                transition={{
+                  duration: 1.5,
+                }}
+                className="m-auto"
+              >
                 <Image src={skill.image} width="64px" height="64px" alt="/" />
-              </div>
+              </motion.div>
               <div className="flex flex-col items-center justify-center">
                 <h3 className="text-xs sm:text-base">{skill.name}</h3>
               </div>

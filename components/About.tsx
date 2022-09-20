@@ -65,7 +65,7 @@ const About = (props: Props) => {
                 <span className="underline decoration-[#ca8a04]/50">
                   little
                 </span>
-                more about me
+                &nbsp;more about me
               </h4>
               <br />
               <p className="text-sm leading-tight">
