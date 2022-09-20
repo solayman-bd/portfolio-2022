@@ -9,22 +9,22 @@ const ExperienceCard = (props: Props) => {
   return (
     <article
       className="flex snap-center flex-col rounded-lg items-center space-y-7 p-1 sm:p-3
-    opacity-70 flex-shrink-0 w-full"
+    opacity-70 flex-shrink-0 w-full relative"
     >
       <div className="bg-gray-800 cursor-pointer transition-opacity duration-200 hover:opacity-100 sm:p-4 p-2 opacity-60 rounded-lg text-gray-300 relative z-10 md:w-2/4">
         <div className="flex flex-wrap items-center">
           <div className="flex relative items-center justify-center w-full">
             <motion.div
               initial={{
-                y: -100,
                 opacity: 0,
-              }}
-              transition={{
-                duration: 1.2,
+                x: 120,
               }}
               whileInView={{
                 opacity: 1,
-                y: 0,
+                x: 0,
+              }}
+              transition={{
+                duration: 1.5,
               }}
               className="h-20 w-20 relative rounded-full overflow-hidden"
             >

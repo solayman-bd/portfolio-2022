@@ -8,7 +8,7 @@ type Props = {};
 const Projects = (props: Props) => {
   return (
     <div className="h-screen max-w-full px-10 flex flex-col items-center relative justify-around">
-      <div className="h-[10%]"></div>
+      <div className="h-[10%]" />
       <h3 className="uppercase font-semibold tracking-widest md:tracking-[20px] text-gray-500 text-2xl">
         Projects
       </h3>
@@ -47,6 +47,7 @@ const Projects = (props: Props) => {
           tech={["React Js,", "Next Js"]}
         />
       </motion.div>
+      <div className="h-[4%]" />
     </div>
   );
 };

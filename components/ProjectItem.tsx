@@ -23,7 +23,7 @@ const ProjectItem = ({ title, backgroundImg, tech, projectUrl }: Props) => {
       }}
       className="relative snap-center flex items-center justify-center h-full w-full flex-shrink-0"
     >
-      <div className="shadow-lg shadow-gray-400 rounded-xl group hover:bg-gradient-to-r from-gray-500 to-[#55575a] w-[90%] h-[80%] sm:w-[70%] sm:h-[80%] md:h-[80%] md:w-[60%] relative overflow-hidden">
+      <div className="shadow-lg shadow-gray-400 rounded-xl group hover:bg-gradient-to-r from-gray-500 to-[#55575a] w-[90%] h-[80%] sm:w-[70%] sm:h-[80%] md:h-[80%] md:w-[50%] relative overflow-hidden">
         <div className="w-full h-full rounded-xl group-hover:opacity-10 overflow-hidden">
           <Image layout="fill" src={backgroundImg} alt="/" />
         </div>
