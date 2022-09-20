@@ -62,7 +62,7 @@ const skills = [
 ];
 const Skills = (props: Props) => {
   return (
-    <div className="h-screen max-w-full px-10 flex flex-col items-center justify-around relative">
+    <div className="h-screen max-w-full px-10 flex flex-col items-center justify-evenly relative">
       <div
         className="
       w-full absolute top-[30%] bg-[#f7ab0a]/5 z-[0] left-0 h-[500px] skew-y-12"
