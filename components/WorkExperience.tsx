@@ -22,7 +22,7 @@ const WorkExperience = (props: Props) => {
         Work Experience
       </h3>
 
-      <div className="w-full flex items-center justify-center flex-nowrap overflow-x-auto px-1 py-5 snap-x snap-mandatory space-x-5 main">
+      <div className="w-full flex items-center flex-nowrap overflow-x-auto px-1 py-5 snap-x snap-mandatory space-x-5 main">
         <ExperienceCard />
         <ExperienceCard />
         <ExperienceCard />
