@@ -2,10 +2,15 @@ import React from "react";
 import Image from "next/image";
 
 import { motion } from "framer-motion";
-import aboutImage from "../public/assets/images/icons/inte.png";
-type Props = {};
 
-const ExperienceCard = (props: Props) => {
+import { IExperienceItem } from "./WorkExperience";
+type Props = {
+  item: IExperienceItem;
+};
+
+const ExperienceCard = ({ item }: Props) => {
+  const { name, position, address, skills, duration, responsibility, imgUrl } =
+    item;
   return (
     <article
       className="flex snap-center flex-col rounded-lg items-center space-y-7 px-1 sm:p-3
@@ -28,45 +33,35 @@ const ExperienceCard = (props: Props) => {
               }}
               className="h-20 w-20 relative rounded-full overflow-hidden"
             >
-              <Image src={aboutImage} alt="" layout="fill" />
+              <Image src={imgUrl} alt="" layout="fill" />
             </motion.div>
           </div>
 
           <div className="w-full pt-2 flex flex-col justify-between">
             <div className="">
-              <h2 className="font-bold md:text-2xl ">Frontend Developer</h2>
-              <h2 className="uppercase md:text-lg">
-                Intelsense Ai . Part-Time
-              </h2>
-              <h2 className="">Dhaka, Bangladesh</h2>
+              <h2 className="font-bold md:text-2xl">{position}</h2>
+              <h2 className="uppercase md:text-lg">{name}</h2>
+              <h2 className="">{address}</h2>
 
               <div className="flex flex-wrap text-center pt-2">
-                <div className="mr-2 mb-2 rounded-full px-3 py-1 text-xs bg-green-400 text-green-900">
-                  Next.js
-                </div>
-                <div className="mr-2 mb-2 rounded-full px-3 py-1 text-xs bg-green-400 text-green-900">
-                  React
-                </div>
-                <div className="mr-2 mb-2 rounded-full px-3 py-1 text-xs bg-green-400 text-green-900">
-                  Tailwind CSS
-                </div>
+                {skills?.map((item) => (
+                  <div
+                    key={item.id}
+                    className="mr-2 mb-2 rounded-full px-3 py-1 text-xs bg-green-400 text-green-900"
+                  >
+                    {item.name}
+                  </div>
+                ))}
               </div>
 
               <p className="text-xs leading-relaxed text-gray-50 uppercase">
-                Dec 2021 - May 2022
+                {duration}
               </p>
 
               <ul className="text-xs mt-2 p-2 list-disc text-gray-50  text-justify leading-3 sm:leading-relaxed">
-                <li>Built landing page</li>
-                <li>
-                  Implemented a system that can record the user&rsquo;s voice
-                  and downsample the audio
-                </li>
-                <li>
-                  Created a text editor that allows users to update the
-                  transcripted text version, identify changes to words, and
-                  determine words&rsquo; prior and current positions in strings.
-                </li>
+                {responsibility?.map((item) => (
+                  <li key={item.id}>{item.name}</li>
+                ))}
               </ul>
             </div>
           </div>

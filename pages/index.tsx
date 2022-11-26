@@ -33,11 +33,17 @@ const Home: NextPage = () => {
       <section id="skills" className="snap-center">
         <Skills />
       </section>
+      <section
+        id="demo"
+        className="snap-center flex items-center justify-center h-full"
+      >
+        <h1>Rest of the part is coming soon....</h1>
+      </section>
 
       {/* Projects */}
-      <section id="projects" className="snap-center">
+      {/* <section id="projects" className="snap-center">
         <Projects />
-      </section>
+      </section> */}
       {/* Contact Me */}
     </div>
   );
